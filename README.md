@@ -243,8 +243,8 @@ GEMINI_API_KEY=your_gemini_api_key_here
 
 ## Author
 
-**Daniel Seyedi** — Final-year Bachelor of Data Science, Victoria University
-[LinkedIn](https://linkedin.com/in/danielseyedi) | [GitHub](https://github.com/danielseyedi)
+**Seyed Niaragh** — Final-year Bachelor of Data Science, Victoria University
+[LinkedIn](https://linkedin.com/in/seyedniaragh) | [GitHub](https://github.com/s-niara)
 
 ---
 
