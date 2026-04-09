@@ -1,0 +1,63 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# .gitignore — Google Gemini TTS Content Automation Pipeline
+# ─────────────────────────────────────────────────────────────────────────────
+
+# ── Environment & Secrets ─────────────────────────────────────────────────────
+.env
+*.key
+*.secret
+
+# ── API Responses (can be large JSON files) ───────────────────────────────────
+wav/*.json
+**/*.json
+
+# ── Raw Audio (binary PCM files) ──────────────────────────────────────────────
+wav/*.pcm
+**/*.pcm
+
+# ── Generated Audio Output ────────────────────────────────────────────────────
+wav/*.wav
+wav/*.mp3
+**/*.wav
+**/*.mp3
+
+# ── Generated Chunks (produced by chunk_script.py) ───────────────────────────
+chunks/
+distantgalaxies_chunks/
+*_chunks/
+
+# ── Source Scripts (keep private — only share pipeline code) ─────────────────
+*.txt
+!README.md
+
+# ── macOS ─────────────────────────────────────────────────────────────────────
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+
+# ── Python ────────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+.venv/
+venv/
+env/
+
+# ── Editors ───────────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ── Logs ─────────────────────────────────────────────────────────────────────
+*.log
+logs/
